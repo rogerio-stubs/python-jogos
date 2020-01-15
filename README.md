@@ -1,3 +1,3 @@
-# python3-parte1 - Introdução à nova versão da linguagem
+# python3-parte2 - 
 
-<p>Lidando com a entrada do usuário, testando valores, iterações, gerando números aleatórios e organização do código</p>
+<p>Curso faz parte da formação em Python3 da Alura</p>
