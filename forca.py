@@ -4,11 +4,13 @@ def jogar():
     print('*************************************')
 
     palavra_secreta = 'banana'
+    letras_acertadas = list(['_' for x in range(len(palavra_secreta))])
 
     enforcou = False
     acertou = False
 
     while (not enforcou and not acertou):
+        print('Forca {}'.format(letras_acertadas))
         chute = input('Qual letra? ').lower().strip()
         print('chute', chute)
         
@@ -21,6 +23,7 @@ def jogar():
         for letra in palavra_secreta:
             if (letra == chute):
                 print('Encontrei a letra {} na posição {}.'.format(letra, index))
+                letras_acertadas[index] = letra
             index += 1
 
         print('Jogando...')
