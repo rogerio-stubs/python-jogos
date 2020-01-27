@@ -1,3 +1,3 @@
-# python3-parte2
+# Jogos
 
-<p>Curso faz parte da formação em Python3 da Alura</p>
+<p>Jogo da forca e de advinhação</p>
